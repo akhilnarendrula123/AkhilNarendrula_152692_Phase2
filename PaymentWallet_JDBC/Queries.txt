@@ -1,0 +1,11 @@
+create table  Customer_Details(
+	custName varchar2(30),
+	custAge varchar2(3),
+	custEmail varchar2(20),
+	 password varchar2(20),
+	custContact varchar2(10),
+	 custBalance varchar2(10)
+	,custGender varchar2(10));
+
+
+create table Transactions(transactions long,custContact varchar2(10));
